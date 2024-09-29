@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body , html {
+     height: 100%;
+     width: 100%;
+}
+
+
+#main{
+   height: 100%;
+   width: 100%;
+   background-color: hsl(318, 39%, 61%);
+   display: flex;
+}
+
+#part1{
+    height: 100%;
+    width: 26%;
+    /*background-color: red;*/
+}
+
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color:rgb(28, 188, 233);
+    background-image: url(https://images.pexels.com/photos/1550049/pexels-photo-1550049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-position: center;
+
+
+
+}
+
+
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(318, 36%, 58%, 0.278);
+}
+
+#part3{
+    height: 100%;
+    width: 7%;
+   /* background-color: green;
+*/}
+
+
+#text{
+   /* height: 300px; */
+    position: absolute;
+    width: 400px;
+   /* background-color: red; */
+    left: 9%;
+    top: 50%;
+    transform: translate(0 ,-50%);
+}
+
+#text h1{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 10000;
+    line-height: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#small-img-div{
+    height: 350px;
+    width: 250px;
+   /*background-color: red;*/
+    background-image: url(https://images.pexels.com/photos/6774877/pexels-photo-6774877.jpeg) ;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 20%;
+    right: 2%;
+}
+
+
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    right: -31%;
+    top: 10%;
+    
+
+}
+
+#vertical-text h1{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+
+
+#nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+    left: 8%;
+    top: 5%;
+   /* background-color: red; */
+}
+
+#nav img{
+    height: 60px;
+}
+
+#nav h5{
+    font-size: 40%;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
